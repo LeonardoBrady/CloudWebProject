@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px rgb(54, 240, 199) solid;
+   /* border: 2px rgb(54, 240, 199) solid; */
     width: auto;
     height: 100%;
     padding: 20px;
@@ -36,11 +36,13 @@ header {
 main {
     grid-area: mainCont;
     text-align: center; 
-    border: 2px rgb(120, 190, 28) solid;
+   /* border: 2px rgb(0, 0, 0) solid; */
     margin: 45px 0 0;
     width: auto;
     height: auto;
-    padding: 50px 30px 0px 50px;
+    padding: 10px 10px 0px -10px;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 aside {
@@ -48,15 +50,16 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 2px blue solid;
+   /* border: 2px blue solid; */
     margin: 45px 0 0;
     width: auto;
     height: auto;
-    padding: 50px 30px 0px 50px;
+    padding: 50px 30px 10px 50px;
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     overflow: scroll;
-    
+    min-width: 300px;
+    max-height: 717px;
 }
 
 .logo {
@@ -67,7 +70,7 @@ aside {
 footer {
     grid-area: foot;
     text-align: center;
-    border: 2px red solid;
+  /*  border: 2px red solid; */
     width: auto;
     height: auto;
     padding: 50px 30px 0px 50px;
@@ -107,3 +110,34 @@ footer {
     background-color: black;
     display: inline;
 }
+
+.cloud-chart-pic {
+    width: auto;
+    height: auto;
+}
+
+footer H2 {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px rgb(0, 0, 0) solid;
+    width: auto;
+    padding: 50px 50px;
+    margin: auto;
+    background-image: url(https://www.csiro.au/-/media/WordPress/CSIROBlog/angry-cloud-1024x480.jpg?mw=800&hash=20A99199E8E24948443737CE1B83FEDF);
+    background-size: cover;
+}
+
+.ytchannel-link {
+    color: yellow;
+}
+
+.ytchannel-link:hover {
+    font-size: 50px;
+    font-weight: lighter;
+    background-color: rgb(0, 183, 255);
+}
+
+
+
+/* Copy and pasted code for image slideshow */
+
