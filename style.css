@@ -30,12 +30,17 @@ header {
     border: 2px rgb(54, 240, 199) solid;
     width: auto;
     height: 100%;
+    padding: 20px 0;
 }
 
 main {
     grid-area: mainCont;
     text-align: center; 
     border: 2px rgb(120, 190, 28) solid;
+    margin: 45px 0 0;
+    width: auto;
+    height: auto;
+    padding: 50px 30px 0px 50px;
 }
 
 aside {
@@ -44,23 +49,30 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     border: 2px blue solid;
-    width: 25%;
+    margin: 45px 0 0;
+    width: auto;
     height: auto;
-    padding: 20px 50px;
+    padding: 50px 30px 0px 50px;
     color: white;
-    background-color: hsla(0, 0%, 0%, 0.5)
+    background-color: hsla(0, 0%, 0%, 0.5);
+    overflow: scroll;
+    
 }
 
 .logo {
     width: auto;
-    height: 50px;
+    height: auto;
     background-color: black;
+    background-image: url(https://cdn.pixabay.com/photo/2022/05/26/04/33/sun-7221832_640.png);
 }
 
 footer {
     grid-area: foot;
     text-align: center;
     border: 2px red solid;
+    width: auto;
+    height: auto;
+    padding: 50px 30px 0px 50px;
 }
 
 .cloud-link {
@@ -79,4 +91,8 @@ footer {
 .logo img {
     width: auto;
     height: 100px;
+}
+
+.facts {
+    position: absolute;
 }
