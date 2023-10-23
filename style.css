@@ -57,7 +57,7 @@ aside {
     margin: 45px 0 0;
     width: auto;
     height: auto;
-    padding: 50px 30px 10px 50px;
+    padding: 50px 10px 10px 50px;
     color: white;
     background-color: hsla(0, 0%, 0%, 0.5);
     overflow: scroll;
@@ -136,17 +136,17 @@ footer {
 
 .cloud-chart-pic {
     width: auto;
-    height: auto;
+    height: 780px;
 }
 
 footer H2 {
     color: rgb(255, 255, 255);
     background-color: black;
-    border: 1px rgb(0, 0, 0) solid;
+    border: 3px rgb(255, 255, 255) solid;
     width: auto;
     padding: 50px 50px;
     margin-top: -49.5px;
-    margin-left: -52px;
+    margin-left: -48px;
     margin-right: -30px; /*
     background-image: url(https://www.csiro.au/-/media/WordPress/CSIROBlog/angry-cloud-1024x480.jpg?mw=800&hash=20A99199E8E24948443737CE1B83FEDF); */
     background-size: cover;
@@ -173,7 +173,8 @@ footer H2 {
     border: 1px white solid;
     margin-left: -50px;
     margin-top: -50px;
-    width: 470px;
+    margin-right: -30px;
+    width: 462px;
     height: auto;
     letter-spacing: 20px;
     border-width: 2px;
